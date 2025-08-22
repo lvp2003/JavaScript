@@ -1,6 +1,6 @@
 document.getElementById("button").onclick = function () {
   let age = Number(document.getElementById("age").value);
-  let output = document.getElementById("output");
+  let output = document.getElementById("output-p");
 
   if (isNaN(age)) {
     output.textContent = "Please enter a valid number!";
