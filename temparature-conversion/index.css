@@ -1,0 +1,83 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Form container */
+form {
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 300px;
+}
+
+/* Heading */
+form h1 {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #333;
+}
+
+/* Input field */
+#textbox {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 15px 0;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+#textbox:focus {
+  border-color: #007bff;
+}
+
+/* Radio buttons and labels */
+input[type="radio"] {
+  margin-right: 8px;
+}
+
+label {
+  font-size: 15px;
+  color: #555;
+}
+
+/* Button styling */
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-align: center;
+  width: fit-content;
+}
